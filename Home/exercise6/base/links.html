@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sposob1{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .sposob1 a{
+            color: green;
+            padding-left:50px; 
+        }
+        .sposob1 a::before{
+            content: '';
+            border-left: solid red 4px;
+            padding: 5px 50px 5px 0px;
+        }
+        .sposob1 a:first-child:before{
+            content: '';
+            border-left:none;
+            padding-right:0px
+        }
+        .sposob1 a:hover{
+            color: red;
+        }
+        .sposob2{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .sposob2 a{
+            color: green;
+            padding-left:50px;
+        }
+        .sposob2 a::after{
+            content: '';
+            border-right: solid red 4px;
+            padding: 5px 50px 5px 0px;
+        }
+        .sposob2 a:last-child::after{
+            content: '';
+            border-right:none
+        }
+        .sposob2 a:hover{
+            color: red;
+        }
+        .sposob3 li{
+            list-style: none;
+            border-right: solid red 4px;
+            padding-right: 50px;
+        }
+        .sposob3 li:last-child{
+            list-style: none;
+            border-right: none;
+            padding-right: 50px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .sposob3 ul{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 50px;
+            padding-right: 338px
+        }
+        .sposob3 a{
+            color: green;
+        }
+        .sposob3 a:hover{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sposob1">
+        <a href="#">первая ссылка</a><a href="#">вторая ссылка</a><a href="#">третья ссылка</a><a href="#">четвёртая
+            ссылка</a><a href="#">пятая ссылка</a>
+    </div>
+    <div class="sposob2">
+        <a href="#">первая ссылка</a><a href="#">вторая ссылка</a><a href="#">третья ссылка</a><a href="#">четвёртая
+            ссылка</a><a href="#">пятая ссылка</a>
+    </div>
+    <div class="sposob3">
+        <ul>
+            <li><a href="#">первая ссылка</a></li>
+            <li><a href="#">вторая ссылка</a></li>
+            <li><a href="#">третья ссылка</a></li>
+            <li><a href="#">четвёртая ссылка</a></li>
+            <li><a href="#">пятая ссылка</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
