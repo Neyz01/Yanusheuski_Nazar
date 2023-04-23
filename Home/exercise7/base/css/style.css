@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    background: #00a1ff6b;
+    font-size: 25px;
+    color: blue;
+    padding: 10px;
+}
+.footer{
+    text-align: center;
+    background: #00a1ff6b;
+    font-size: 25px;
+    color: blue;
+    padding: 10px; 
+}
+.menu{
+    width: 150px;
+    float: left;
+    padding-bottom: 10px;
+}
+.content{
+    margin-left: 150px;
+    background: url(../../../exercise5/base/ballIMG.png) repeat-y right top;
+    background-color: white;
+    padding-left: 10px;
+}
