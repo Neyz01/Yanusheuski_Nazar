@@ -1,0 +1,32 @@
+*{
+    font-size: 20px;
+}
+.textarticle{
+    float: left;
+    margin: 0;
+}
+input[type^='text']{
+    width: 100%;
+}
+.article{
+    margin-left: 215px;
+}
+select{
+    margin-left: 139px;
+    margin-bottom: 10px;
+    border:none
+}
+input[type^='radio']{
+    vertical-align: -2px;
+}
+textarea{
+    width: 100%;
+    height: 50px;
+}
+input[type^='checkbox']{
+    margin-bottom: 10px;
+    vertical-align: -2px;
+}
+.radio{
+    margin-left: 108px;margin-bottom: 10px;
+}

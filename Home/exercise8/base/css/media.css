@@ -1,0 +1,18 @@
+@media all and (max-width:768px){
+    .textarticle{
+        float: none;
+    }
+    .article{
+        margin-left: 0px;
+    }
+    select{
+        display: block;
+        margin: 10px 0 0 0;
+    }
+    .a,.b,.c{
+        display: block;
+    }
+    .radio{
+        margin: 0 3px 0 5px;
+    }
+}
