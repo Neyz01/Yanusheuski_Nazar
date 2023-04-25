@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top {
+    background:rgb(177, 208, 255); padding:20px;color: blue;text-align: center;
+}
+.menu{
+    min-width: 165px;
+    padding: 10px;
+    background:rgb(248, 248, 117)
+}
+.blog { 
+    background: url('../../../exercise5/base/ballIMG.png') right top no-repeat repeat;
+    background-color: white;  
+    padding-left: 10px;
+}
+.flex{
+    display: flex;
+}
+ul{
+    padding-left: 20px;padding-top: 10px;
+}
