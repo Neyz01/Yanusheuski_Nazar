@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/170ef68790.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+        div{
+        font-size: 50px;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 400px;
+    }
+    @keyframes fadeOutRight {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }}
+    .ghost{
+        animation: fadeOutRight 4s linear infinite;
+    }
+    @keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+    }
+    .eye{
+        align-self: center;
+    }
+    .header:hover>.eye{
+        animation:flash 2s linear infinite ;
+    }
+    @keyframes music{
+        0%{
+            color: red;
+        }
+        20%{
+            color:orange;
+        }
+        40%{
+            color: yellow;
+        }
+        60%{
+            color: green;
+        }
+        80%{
+            color:aqua;
+        }
+    }
+    @keyframes swing {
+  20% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+ .music{
+        align-self:center;
+}
+    .header:hover>.music{
+        animation:music 4s linear infinite, swing 4s linear infinite
+    }
+    </style>
+
+</head>
+<body>
+    <div class="header">
+        <div class="ghost"><i class="fa-solid fa-ghost"></i></div>
+        <div class="eye"><i class="fa-solid fa-eye"></i></div>
+        <div class="music"><i class="fa-solid fa-music"></i></div>
+    </div>
+    
+</body>
+</html>
