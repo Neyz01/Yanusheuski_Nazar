@@ -1,34 +1,34 @@
-    var firstname = prompt("Введите вашу Фамилию");
-    var name = prompt("Введите ваше Имя");
+    var lastname = prompt("Введите вашу Фамилию");
+    var firstname = prompt("Введите ваше Имя");
     var surname = prompt("Ведите ваше Отчество");
       do {
         var ageS = prompt("Введите ваш возраст:");
         var age = parseInt(ageS);
       } while (isNaN(age));
-        var male = confirm("Ваш пол мужской?");
+        var gender = confirm("Ваш пол мужской?");
 
       var ageDay = age * 365;
       var age5year = age + 5;
-      if (male === true) {
+      if (gender === true) {
         pol = "Мужской";
       } else {
         pol = "Женский";
       }
 
-      if (male === true)
+      if (gender === true)
         if (age > 63) {
           pens = "да";
         } else {
           pens = "нет";
         }
-      else if (male === false)
+      else if (gender === false)
         if (age > 58) {
           pens = "да";
         } else {
           pens = "нет";
         }
 
-      var result = `Ваше ФИО: ${firstname + " " + name + " " + surname}
+      var result = `Ваше ФИО: ${lastname + " " + firstname + " " + surname}
                     Ваш возраст в годах: ${age}
                     Ваш возраст в днях: ${ageDay}
                     Через 5 лет вам будет: ${age5year}
