@@ -556,3 +556,35 @@ footer a[href^=tel]{
     position: relative;
     bottom: 190px;
 }
+/*documents*/
+.document1,.document2,.document3,.document4,.document5{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFF9EF;
+    width: 1593px;
+    height: 137px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.document1 .download,.document2 .download,.document3 .download,.document4 .download,.document5 .download{
+    position: relative;
+    left: 165px;
+}
+.document2 .name{
+    padding-right: 140px;
+}
+.blockDocuments .date{
+    position: relative;
+    left: 150px;
+}
+.document1 a,.document2 a,.document3 a,.document4 a,.document5 a{
+font-weight: 600;
+font-size: 18px;
+}
+.documents .more{
+    text-align: end;
+    padding: 59px 170px;
+    font-weight: 600;
+    font-size: 18px;
+}
