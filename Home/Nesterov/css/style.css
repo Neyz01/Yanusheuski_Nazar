@@ -15,6 +15,25 @@ a{
     color: black;
     text-decoration: none;
 }
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #441D06;
+    font-size: 72px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #441D06;
+    font-size: 64px;
+    line-height: 90px;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+}
 .container{
     width: 1920px;
     margin: 0 auto;
@@ -87,13 +106,6 @@ header img{
     position: absolute;
     top: 114px;
 }
-.kvartiry h1{
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    color: #441D06;
-    font-size: 72px;
-    padding: 79px 0 282px 163px;
-}
 .kvartiry p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -135,12 +147,8 @@ header img{
     left: 430px;
 }
 .architecture h3{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 24px;
     line-height: 35px;
     padding: 57px 298px 141px 37px;
-    text-transform: uppercase;
 }
 .architecture p{
     margin-top: -136px;
@@ -153,11 +161,6 @@ header img{
     top: -450px;
 }
 .pjn h2{
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    color: #441D06;
-    font-size: 64px;
-    line-height: 90px;
     margin-left: -20px;
 }
 .pjn li{
@@ -177,10 +180,7 @@ header img{
     display: flex;
 }
 .blockCalcDescript h3{
-    font-weight: 300;
-    font-size: 24px;
     line-height: 35px;
-    text-transform: uppercase;
     color: white;
     padding: 61px 130px 55px 180px;
 }
@@ -206,11 +206,6 @@ header img{
     bottom:403px
 }
 .podarite h2{
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    color: #441D06;
-    font-size: 64px;
-    line-height: 90px;
     padding: 118px 921px 67px 160px;
 }
 .bokses{
@@ -226,12 +221,9 @@ header img{
     width: 370px;
 }
 .boks1 h3,.boks2 h3,.boks3 h3{
-    font-weight: 300;
     color:#441D06;
-    font-size: 24px;
     line-height: 35px;
     padding: 52px 0 33px;
-    text-transform: uppercase;
 }
 .boks1 p,.boks3 p{
     padding-top: 32px;
@@ -245,11 +237,6 @@ header img{
     padding: 0 983px 0 165px;
 }
 .raspologenie h2{
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    color: #441D06;
-    font-size: 64px;
-    line-height: 90px;
     padding: 170px 135px 57px 971px;
 }
 .raspologenie p{
@@ -264,10 +251,7 @@ header img{
     top: 774px;
 }
 .blockRaspologenie h3{
-    font-weight: 300;
-    font-size: 24px;
     color: white;
-    text-transform: uppercase;
     padding: 94px 435px 103px 35px;
 }
 .blockRaspologenieCircle{
@@ -291,18 +275,10 @@ header img{
     bottom: 70px;
 }
 .blockForm h2{
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    color: #441D06;
-    font-size: 64px;
-    line-height: 90px;
     padding: 139px 865px 48px 157px;
 }
 .blockForm h3{
-    font-weight: 300;
-    font-size: 24px;
     line-height: 35px;
-    text-transform: uppercase;
     padding: 0 874px 68px 559px;
 }
 .forma{
@@ -351,10 +327,7 @@ header img{
     top:1px
 }
 .otdelProdag h3{
-    font-weight: 300;
-    size: 24px;
     line-height:35px;
-    text-transform: uppercase;
     color: white;
     padding: 101px 706px 48px 179px;
 }
@@ -407,6 +380,108 @@ footer a[href^=tel]{
     color: rgba(255, 255, 255, 0.692);
 }
 /* footer*/
+/*Infrastructura*/
+.infrastructura p{
+    padding: 79px 975px 36px 160px;
+}
+.blockInfrastructura1,.blockInfrastructura2,.blockInfrastructura3{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 12px;
+    padding-left: 163px;
+}
+.blockInfrastructura1 h3,.blockInfrastructura2 h3,.blockInfrastructura3 h3{
+    margin-bottom: 18px;
+}
+.infraImg{
+    position: relative;
+    bottom: 665px;
+    left: 975px;
+}
+.krasotaVnutri{
+    text-align: right;
+    padding: 0 174px 0 971px;
+    position: relative;
+    bottom: 591px;
+}
+.Ploschadki{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 522px;
+    justify-content: center;
+}
+.kids{
+    position: relative;
+}
+.etag{
+    margin-top: -3px;
+}
+.greenZone{
+    margin-top: -139px;
+}
+.kidsGreenZone h3{
+    position: absolute;
+    bottom: 3px;
+    background-color: rgb(255 255 255 / 47%);
+    padding: 15px;
+}
+.blockRaspologenie2{
+    width: 1352px;
+    height: 181px;
+    background-color: #441D06;
+    position: absolute;
+    top: 1956px;
+}
+.blockRaspologenie2 h3{
+    color: white;
+    padding: 75px 435px 75px 176px;
+}
+.blockRaspologenieCircle2{
+    position: absolute;
+    top: 54px;
+    left: 825px;
+    right: 390px;
+    bottom: 49px
+}
+.blockRaspologenieCircle2 a{
+    width: 243px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    top: 27px;
+    left: 58px;
+}
+.vseNugnoe{
+    position: relative;
+    top: -183px;
+}
+.vseNugnoe h2{
+    padding: 0 1306px 31px 160px;
+}
+.vseNugnoe ul{
+    padding-left: 160px;
+}
+.vseNugnoe li{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.vseNugnoe span{
+    margin-left: 33px;
+}
+.vseNugnoe .circle{
+    position: absolute;
+    left: 160px;
+    top:700px;
+    width: 250px;
+}
+.vseNugnoe .karta{
+    position: absolute;
+    top: 0;
+    right: 148px
+}
     
 
 
