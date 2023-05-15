@@ -482,6 +482,77 @@ footer a[href^=tel]{
     top: 0;
     right: 148px
 }
-    
-
-
+/*Contacts*/
+.contacts h3{
+    padding: 85px 1585px 45px 160px
+}
+.contacts ul{
+    margin-left: 160px;
+}
+.contacts li{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.contacts span{
+    margin-left: 20px;
+}
+.contacts .circle{
+    position: absolute;
+    top: 700px;
+    left: 550px;
+    right: 719px;
+    bottom: 80px;
+    width: 250px;
+}
+.maps{
+    top: -490px;
+    left: 685px;
+}
+.prologiteMarshrut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 440px;
+    left: 25px;
+}
+.prologiteMarshrut h3{
+    margin-right: 94px;
+}
+.prologiteMarshrut input{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.prologiteMarshrut .circle{
+    position: absolute;
+    left: 1375px;
+    top: -25px;
+    width: 255px;
+}
+.nashiPartnery{
+    position: relative;
+    bottom: 290px;
+    left: 1107px;
+}
+.banks{
+    position: relative;
+    bottom: 275px;
+    left: 160px;
+}
+.drugiebanks{
+    font-size: 12px;
+    text-align: end;
+    padding-right: 167px;
+    position: relative;
+    bottom: 265px;
+}
+.blockContacts{
+    position: relative;
+    bottom: 190px;
+}
