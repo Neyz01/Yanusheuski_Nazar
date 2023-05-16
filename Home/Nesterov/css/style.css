@@ -430,8 +430,8 @@ footer a[href^=tel]{
     width: 1352px;
     height: 181px;
     background-color: #441D06;
-    position: absolute;
-    top: 1956px;
+    position: relative;
+    top: -525px;
 }
 .blockRaspologenie2 h3{
     color: white;
