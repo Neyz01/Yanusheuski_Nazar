@@ -225,9 +225,6 @@ header img{
     line-height: 35px;
     padding: 52px 0 33px;
 }
-.boks1 p,.boks3 p{
-    padding-top: 32px;
-}
 .raspologenie{
     position: relative;
     bottom:400px
@@ -693,4 +690,35 @@ font-size: 18px;
 }
 .blockStroitelstva .blockRaspologenie2{
     top: 0;
+}
+/*zastroy*/
+.zastroy{
+    position: relative;
+}
+.zastroy p{
+    padding: 62px 975px 105px 160px;
+}
+.imgZastroy{
+    position:absolute;
+    top:72px;
+    left: 975px;
+}
+.nashiProekty{
+    padding: 125px 0 65px 160px;
+}
+.proekty{
+    display:flex;
+    justify-content: center;
+}
+.proekty img{
+    margin-bottom: 20px;
+}
+.proekty span{
+    font-weight: 600;
+    font-size: 18px;
+    color: #441D06;
+    text-transform: uppercase;
+}
+.formZastroy{
+    margin-top: 50px;
 }
