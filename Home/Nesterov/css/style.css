@@ -719,6 +719,10 @@ font-size: 18px;
     color: #441D06;
     text-transform: uppercase;
 }
+.proekty div:hover{
+    transform: translate(0px,-45px);
+    transition: 1s;
+}
 .formZastroy{
     margin-top: 50px;
 }
