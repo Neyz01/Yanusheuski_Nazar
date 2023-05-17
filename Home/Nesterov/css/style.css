@@ -675,3 +675,22 @@ font-size: 18px;
 .formForProekt{
     margin-top: 450px;
 }
+/*Hod stroitelstva*/
+.carousel{
+    margin-top: 70px;
+    padding: 0 170px 0 160px;
+    position:relative
+}
+.owl-nav{
+    display: none;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    background-color:#441D06
+}
+.blockStroitelstva{
+    display: flex;
+    justify-content: end;
+}
+.blockStroitelstva .blockRaspologenie2{
+    top: 0;
+}
