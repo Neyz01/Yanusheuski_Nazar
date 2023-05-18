@@ -6,7 +6,8 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    background-color:gainsboro
+    background-color:gainsboro;
+    overflow-x: hidden;
 }
 ul{
     list-style-type: none;
@@ -53,6 +54,35 @@ header img{
     border: none;
     background: white;
     padding-top: 10px;
+    position: relative;
+}
+#open{
+    user-select:none;
+    margin-top: 27px;
+}
+#close{
+    display:none;
+    user-select: none;
+}
+#close i{
+    font-size: 42px;
+    margin-top: 25px;
+    color: #441D06;
+}
+#menu{
+    position:absolute;
+    right: 0;
+    transform: translateX(645px);
+    z-index: 1;
+    background-color:white;
+    width: 403px;
+    margin-top: 25px;
+    transition: 1s;
+}
+#menu li{
+    padding: 33px 0 0 100px;
+    font-weight: 400;
+    font-size: 18px;
 }
 .headKrasnoyarsk{
     display: flex;

@@ -16,3 +16,16 @@ $(document).ready(function(){
         }
     })
 });
+$(document).ready(function(){
+    $('#open').on('click', function(){
+        $('#menu').css('transform', 'translate(10px)');
+        $(this).css('display', 'none');
+        $('#close').css('display', 'block');
+    });
+
+    $('#close').on('click', function(){
+        $('#menu').css('transform', 'translate(645px)');
+        $(this).css('display', 'none');
+        $('#open').css('display', 'block');
+    });
+});
