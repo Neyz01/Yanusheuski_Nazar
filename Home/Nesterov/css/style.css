@@ -726,3 +726,72 @@ font-size: 18px;
 .formZastroy{
     margin-top: 50px;
 }
+/*Prodaga*/
+.yslovie{
+    height:500px
+}
+.yslovie p{
+    padding:62px 718px 50px 160px;
+}
+.blocksYslovie{
+    display: flex;
+    justify-content: space-evenly;
+}
+.block1,.block2,.block3{
+    text-align: center;
+    width: 375px;
+}
+.block1 h3,.block2 h3,.block3 h3{
+    margin-top: 40px;
+}
+.helpMeneger .blockRaspologenie{
+    width: 1498px;
+    height: 222px;
+    background-color: #441D06;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+.helpMeneger h3{
+    padding: 94px 720px 103px 160px;
+}
+.helpMeneger .blockRaspologenieCircle{
+    position: absolute;
+    top: 80px;
+    left: 1100px;
+    right: 0;
+    bottom: 82px;
+}
+.helpMeneger span{
+    color: rgb(255 255 255 / 68%);
+    font-size: 13px;
+    position: absolute;
+    top: 165px;
+    left: 160px;
+}
+.banksProdagi .banks{
+    position: relative;
+    bottom: 0px;
+    left: 160px;
+}
+.banksProdagi p{
+    font-size: 12px;
+    text-align: end;
+    padding-right: 167px;
+    position: relative;
+    bottom: 0px;
+}
+.partneryProdagi{
+    margin-top: 120px;
+}
+.banksProdagi{
+    margin-top: 30px;
+}
+.partneryProdagi .nashiPartnery{
+    position: relative;
+    bottom: 0px;
+    left: 1107px;
+}
+.formProdagi{
+    margin-top: 100px;
+}
