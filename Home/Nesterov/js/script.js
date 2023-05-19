@@ -24,7 +24,7 @@ $(document).ready(function(){
     });
 
     $('#close').on('click', function(){
-        $('#menu').css('transform', 'translate(645px)');
+        $('#menu').css('transform', 'translate(2400px)');
         $(this).css('display', 'none');
         $('#open').css('display', 'block');
     });

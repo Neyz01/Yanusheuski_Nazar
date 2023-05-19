@@ -73,7 +73,7 @@ header img{
 #menu{
     position:absolute;
     right: 0;
-    transform: translateX(645px);
+    transform: translateX(2400px);
     z-index: 1;
     background-color:white;
     width: 403px;
