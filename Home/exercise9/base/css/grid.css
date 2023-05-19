@@ -1,0 +1,69 @@
+body {
+    height: 100%;
+}
+h1{
+    text-align: center;
+}
+img{
+    float: left; 
+    margin: 0px 15px 0px 0px; 
+}
+.main{
+    
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 50px 1fr 50px;
+}
+.header{
+    grid-column: 1/3;
+    grid-row: 1;
+    background-color: #00a1ff6b; 
+    font-size: 18px; 
+    padding: 10px; 
+    text-align: center;
+    color: blue;
+}
+.menu{
+    grid-column: 1;
+    padding: 15px; 
+    background: #ffff007d;
+}
+.content{
+    padding: 10px;
+    background: url(../../../exercise5/base/ballIMG.png) right repeat-y;
+}
+
+
+.footer{
+    grid-column: 1/3;
+    background-color: #00a1ff6b;
+    grid-row: 3; 
+    padding: 15px; 
+    text-align: center;
+    color: blue;
+}
+
+@media (max-width: 800px){
+    .main{
+        grid-template-rows: 2fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    .header{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .content{
+        grid-row: 1;
+        background: none;
+    }
+    .menu{
+        grid-row: 2;
+        background: none;
+    }
+    li{
+        list-style-type: none;
+        display: inline;
+    }
+}
