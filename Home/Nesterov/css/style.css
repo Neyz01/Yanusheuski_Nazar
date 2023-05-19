@@ -34,6 +34,7 @@ h3{
     font-weight: 300;
     font-size: 24px;
     text-transform: uppercase;
+    color:#441D06
 }
 .container{
     width: 1920px;
@@ -677,7 +678,7 @@ font-size: 18px;
     top: 160px;
     right: 0;
 }
-.blockForProekt .blockRaspologenie{
+.blockForProekt .blockRaspologenie,.blockForKvartiry .blockRaspologenie{
     width: 1352px;
     height: 198px;
     background-color: #441D06;
@@ -685,10 +686,10 @@ font-size: 18px;
     right: 0;
     top: 774px
 }
-.blockForProekt .blockRaspologenieCircle{
+.blockForProekt .blockRaspologenieCircle,.blockForKvartiry .blockRaspologenieCircle{
     left: 1030px;
 }
-.blockForProekt input{
+.blockForProekt input,.blockForKvartiry input{
     position: absolute;
     top: 102px;
     left: 700px;
@@ -824,4 +825,75 @@ font-size: 18px;
 }
 .formProdagi{
     margin-top: 100px;
+}
+/*kvartiry*/
+.select{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+select{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #441D06;
+}
+.selectImg{
+    text-align: center;
+    margin-top: 10px;
+}
+.zagolovokVid{
+    text-align: end;
+    margin-top: 120px;
+}
+.zagolovokVid h2{
+    padding: 0 178px 0 749px;
+}
+.vid{
+    position:relative;
+}
+.gostinnaja{
+    position: absolute;
+    top: 77px;
+    left: 169px;
+}
+.vidIzOkna{
+    position: absolute;
+    top: 523px;
+    left: 169px;
+}
+.kuhnja{
+    position: absolute;
+    top: 77px;
+    left: 1084px
+}
+.spalnja{
+    position: absolute;
+    top: 389px;
+    left: 1084px;
+}
+.textGostinnaja,.textVidIzOkna,.textKuhnja,.textSpalnja{
+    width: 255px;
+    height: 83px;
+    background-color:rgba(255, 255, 255, 0.47);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+.textGostinnaja h3,.textVidIzOkna h3,.textKuhnja h3,.textSpalnja h3{
+    padding: 24px 50px;
+}
+.spalnja img{
+    width: 719px;
+    height: 366px;
+}
+.blockForKvartiry{
+    position: relative;
+    top: -19px;
+    right: 567px;
+    height: 1000px;
 }
